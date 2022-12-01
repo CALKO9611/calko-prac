@@ -1,7 +1,9 @@
+@import url(./normalize.css);
+@import url(./reset.css);
+
 /* 기본 스타일 */
 *, *::before, *::after {
     box-sizing: border-box;
-    
 }
 
 
@@ -23,7 +25,34 @@
 .main{
     background: yellow;
     height: 50vh;
+    display: flow-root;
+    padding: 0 15px;
 }
+.group{
+    margin: 0 25px;
+    height: 10vh;
+    float: left;
+}
+
+.group1{
+    background: violet;
+    width: 650px;
+
+
+}
+.group2{
+    background: ghostwhite;
+    width: 160px;
+
+
+}
+.group3{
+    background: brown;
+    width: 100px;
+  
+}
+
+
 .slogan{
     background: green;
     height: 5vh;
